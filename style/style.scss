@@ -4,6 +4,15 @@ html {
   margin: 0;
   box-sizing: border-box;
 }
+
+.hover1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
 .holiday-parent {
   width: 65rem;
   height: 45rem;
@@ -14,17 +23,16 @@ html {
 }
 .holiday {
   height: 20rem;
-  position: absolute;
   transition: all 0.3s;
   outline-offset: 1rem;
 }
 .sum {
-  top: 5rem;
+  top: 10rem;
   left: 15%;
 }
 .halo {
-  top: 17rem;
-  right: 99rem;
+  top: 2rem;
+  right: 0rem;
 }
 .win {
   top: -2rem;
