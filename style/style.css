@@ -67,6 +67,19 @@ html {
           box-sizing: border-box;
 }
 
+.halloween {
+  height: 20rem;
+  position: relative;
+}
+
+html {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .hover {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -82,5 +95,6 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

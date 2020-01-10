@@ -1,5 +1,6 @@
-@import "./varaibles.scss";
-@import"./hover1.scss";
+@import "./_varaibles.scss";
+@import"./_hover1.scss";
+@import"./_hover2.scss";
 
 html {
   font-size: 62.5%;
@@ -14,5 +15,6 @@ html {
   align-items: center;
   text-align: center;
   flex-direction: column;
+  font-size: 2rem;
 }
 
