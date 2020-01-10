@@ -8,10 +8,9 @@ $colors: (
     black: #0000,
     purple: rgb(139, 25, 167),
     orange: rgb(231, 113, 16),
-    
-    
 
-)
+);
+
 @function color($color-name) {
     @return map-get($colors, $color-name);
   }
