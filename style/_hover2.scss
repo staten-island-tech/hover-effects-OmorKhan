@@ -4,5 +4,11 @@
    position: relative;
 }
 .halloween-pic{
-    
+ height: 20rem;
+ width: 25rem;
+ margin: 2rem;   
+}
+.halloween-pic:hover {
+    transform: scale(0.3);
+    transition: 0.2s;
 }

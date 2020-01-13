@@ -1,0 +1,40 @@
+@import"./_varaibles.scss";
+.protein-parent{
+    position: relative;
+    width: 30rem;
+}
+
+.protein-image{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 30vh;
+    transition: .3s ease;
+    backface-visibility: hidden;
+    
+}
+
+.protein-middle{
+    transition: .3s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.protein-parent:hover .protein-image{
+    opacity: 0.4;
+}
+
+.protein-parent:hover .protein-middle{
+    opacity: 1;
+}
+
+.protein-text{
+    background-color: $purple;
+    color: $orange;
+    font-size: 3rem;
+    padding: 2rem;
+}
