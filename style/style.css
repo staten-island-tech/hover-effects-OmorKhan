@@ -72,6 +72,25 @@ html {
   position: relative;
 }
 
+.halloween-pic {
+  height: 20rem;
+  width: 25rem;
+  margin: 2rem;
+  -webkit-animation-name: slide-in;
+          animation-name: slide-in;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+}
+
+.halloween-pic:hover {
+  -webkit-transform: scale(0.3);
+          transform: scale(0.3);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
 html {
   font-size: 62.5%;
   padding: 0;
