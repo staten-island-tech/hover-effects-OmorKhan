@@ -1,0 +1,8 @@
+.bunny{
+   
+    transition: .5s ease-in-out;
+    height: 20rem;
+}
+.bunny:hover{
+    filter: hue-rotate(90deg);
+}

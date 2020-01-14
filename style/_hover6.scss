@@ -1,0 +1,7 @@
+.cloud{
+    transition: .5s ease-in-out;
+    height: 20rem;
+}
+.cloud:hover{
+    filter: grayscale(95%);
+}

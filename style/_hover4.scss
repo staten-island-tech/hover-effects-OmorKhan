@@ -1,16 +1,11 @@
-Blur{
-    width: 600px;
-  }
-  
-  .Blur img {
-      filter: blur(3px);
+  .skull {
+      filter: blur(5px);
       transition: .3s ease-in-out;
+      height: 20rem;
   }
   
-  .Blur:hover img {
-      filter: blur(0);
+  .skull:hover {
+      filter: blur(0px);
+      // transform: translate(5rem, 0);
   }
   
-  .hal{
-    height: 20rem;
-  }

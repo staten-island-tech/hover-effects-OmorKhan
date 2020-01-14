@@ -6,12 +6,11 @@
 .halloween-pic{
  height: 20rem;
  width: 25rem;
- margin: 2rem;  
- animation-name: slide-in;
- animation-duration: 1s;
- animation-timing-function: ease-out; 
+ //animation-name: slide-in;
+ //animation-duration: 1s;
+ //animation-timing-function: ease-out; 
 }
 .halloween-pic:hover {
-    transform: scale(0.3);
+    transform: skew(30deg, 20deg);
     transition: 0.2s;
 }
