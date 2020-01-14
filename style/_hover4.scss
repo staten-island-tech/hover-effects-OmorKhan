@@ -1,0 +1,16 @@
+Blur{
+    width: 600px;
+  }
+  
+  .Blur img {
+      filter: blur(3px);
+      transition: .3s ease-in-out;
+  }
+  
+  .Blur:hover img {
+      filter: blur(0);
+  }
+  
+  .hal{
+    height: 20rem;
+  }
