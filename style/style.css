@@ -96,6 +96,26 @@ html {
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   height: 20rem;
+  -webkit-animation: slide-in 1.5s linear infinite alternate;
+          animation: slide-in 1.5s linear infinite alternate;
+}
+
+@-webkit-keyframes slide-in {
+  from {
+    translate: -200px;
+  }
+  to {
+    translate: 200px;
+  }
+}
+
+@keyframes slide-in {
+  from {
+    translate: -200px;
+  }
+  to {
+    translate: 200px;
+  }
 }
 
 .rose:hover {

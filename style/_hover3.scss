@@ -1,8 +1,20 @@
 @import"./_varaibles.scss";
+
 .rose{
     transition: .5s ease-in-out;
-    height: 20rem;
+    height: 20rem; 
+    animation: slide-in 1.5s linear infinite alternate;
 }
+
+@keyframes slide-in {
+    from{
+        translate: -200px;
+    }
+    to{
+        translate: 200px;
+    }
+}
+
 .rose:hover{
     filter: invert(80%);
 }
